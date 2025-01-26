@@ -1,31 +1,7 @@
 BasicArchitecture
 
 📌 Sobre o Projeto
-O BasicArchitecture é uma solução baseada em .NET que segue os princípios de Clean Architecture e DDD (Domain-Driven Design). Ele é projetado para ser modular e escalável, facilitando a manutenção e evolução do código.
-
-🏗 Estrutura do Projeto
-A solução está organizada da seguinte forma:
-
-BasicArchitecture
-│── src
-│   ├── 1 - API
-│   │   ├── WebApi (Camada de Apresentação - API)
-│   │
-│   ├── 2 - Application (Casos de uso e regras de negócio)
-│   │   ├── Application
-│   │
-│   ├── 3 - Domain (Entidades e interfaces de domínio)
-│   │   ├── Domain
-│   │
-│   ├── 4 - Infrastructure (Implementações específicas de tecnologias)
-│   │   ├── Infrastructure.Kafka (Integração com Kafka)
-│   │   ├── Infrastructure.MongoDB (Integração com MongoDB)
-│
-│── tests
-│   ├── FunctionalTests (Testes funcionais)
-│   ├── IntegratedTests (Testes de integração)
-│   ├── UnitTests (Testes unitários)
-
+O BasicArchitecture é uma solução baseada em .NET que segue o princípio do DDD (Domain-Driven Design). Ele é projetado para ser modular e escalável, facilitando a manutenção e evolução do código.
 
 ⚙️ Tecnologias Utilizadas
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
